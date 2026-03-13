@@ -44,26 +44,7 @@ li {
 	color: #fff;
 }
 
-/* ---------------------------------------------------------------------------------------------------------- 
-	02 Typography -----------------------------------------------------------------------------------------------
-	---------------------------------------------------------------------------------------------------------- */
-/*
 
-	14 / 16	= 		0.875em 		(14px equivalent)
-	16 / 16	= 		1em 			(16px equivalent)
-	18 / 16 = 		1.125em 		(18px equivalent)
-	21 / 16 = 		1.3125em 		(21px equivalent)
-	24 / 16 = 		1.5em 			(24px equivalent)
-	30 / 16 = 		1.875em 		(30px equivalent)
-	36 / 16 = 		2.25em 			(36px equivalent)
-	48 / 16 = 		3em 			(48px equivalent)
-	60 / 16 = 		3.75em 			(60px equivalent)
-	72 / 16 = 		4.5em 			(72px equivalent)
-	96 / 16 = 		6em 			(96px equivalent)
-
-	*/
-
-/* Rendering */
 body,
 input,
 textarea {
@@ -99,6 +80,7 @@ h1 {
 	display: inline-block;
 	margin-bottom: 1em;
 	padding: 0.5em 1em;
+	animation: float 4s ease-in-out infinite; 
 }
 
 h2 {
@@ -184,6 +166,8 @@ strong {
 html {
 	background: #e0ceeb;
 	padding: 5%;
+	background-image: url(WIKVPz.gif);
+
 }
 
 body {
@@ -264,11 +248,6 @@ div.requirements {
 	padding: 5%;
 }
 
-/* ---------------------------------------------------------------------------------------------------------- 
-	04 Media queries (using a mobile-first approach) ------------------------------------------------------------
-	---------------------------------------------------------------------------------------------------------- */
-
-/* 1 and up */
 @media screen and (min-width:1px) {
 
 	body {
@@ -287,6 +266,7 @@ div.requirements {
 
 	section.intro {
 		width: 66.6%;
+		background-image: url(giphy.gif);
 	}
 
 	aside.sidebar {
@@ -294,6 +274,7 @@ div.requirements {
 		right: 0;
 		top: 2.5%;
 		width: 32.75%;
+		background-image: url(1.gif);
 	}
 
 	div.extra1 {
